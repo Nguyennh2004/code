@@ -1,4 +1,7 @@
-ten_nhom = "C0124L1"
-so_thanh_vien = 20
-da_co_gia_dinh_chua = False
-tong_so_can_nang = 2207
+s = input()
+a, b, c = int(s[0]), int(s[4]), int(s[8])
+
+if a + b == c:
+    print("YES")
+else:
+    print("NO")
