@@ -1,7 +1,10 @@
-s = input()
-a, b, c = int(s[0]), int(s[4]), int(s[8])
+a = float(input("Nhap a: "))
+b = float(input("Nhap b: "))
 
-if a + b == c:
-    print("YES")
+if a == 0:
+    if b == 0:
+        print("Phuong trinh co vo so nghiem")
+    else:
+        print("Phuong trinh vo nghiem")
 else:
-    print("NO")
+    print("Phuong trinh co nghiem la: ", -b/a)

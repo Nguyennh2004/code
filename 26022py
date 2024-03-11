@@ -1,0 +1,5 @@
+tieng_anh = ["Hi","Bye","Love"]
+tieng_viet = ["Xin chào","Tạm biệt","Yêu"]
+txt = input("Nhập Hi hoặc Bye hoặc Love = ")
+x = tieng_anh.index(txt)
+print(tieng_viet[x])

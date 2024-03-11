@@ -28,7 +28,7 @@ turtle.end_fill()
 turtle.penup()
 turtle.goto(0,50)
 turtle.pendown()
-turtle.circle(-70, steps=3)
+turtle.circle(-70, steps=2)
 
 turtle.penup()
 turtle.goto(-100,-70)
